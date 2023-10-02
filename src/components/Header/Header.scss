@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(../../img/bgvirtual.png);
+}
+#header {
+  // background: rgba(17, 24, 39, 0.52);
+  // background: #111827;
+  backdrop-filter: blur(33px);
+  .header {
+    padding-top: 52px;
+  }
+  .container {
+    width: 85%;
+    margin: 0 auto;
+    .main {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      // gap: 60px;
+
+      .logo {
+        display: flex;
+        color: whitesmoke;
+        align-items: center;
+        gap: 4px;
+      }
+      nav {
+        margin-left: 250px;
+        display: flex;
+        gap: 60px;
+        list-style: none;
+        color: #f9fafb;
+        font-size: 14px;
+        font-weight: 500;
+      }
+      .btn1 {
+        color: #f9fafb;
+        font-size: 14px;
+        font-weight: 500;
+        width: 132px;
+        padding: 12px 24px;
+        border-radius: 5px;
+        border: none;
+        background: var(
+          --Gardient,
+          linear-gradient(90deg, #2563eb 0.36%, #d946ef 201.02%)
+        );
+      }
+    }
+  }
+}

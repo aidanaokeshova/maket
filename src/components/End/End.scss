@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+}
+.footer_footer {
+  margin-left: 50px;
+  border-top: 1.5px solid #969696;
+  margin: 66px 0 35px 0;
+  display: flex;
+  gap: 660px;
+  .footer_p {
+    margin-left: 100px;
+    margin-top: 30px;
+  }
+
+  .ateg,
+  a {
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+}
